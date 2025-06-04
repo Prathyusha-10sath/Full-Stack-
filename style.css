@@ -1,0 +1,25 @@
+.parent p{
+        font-family: cursive;
+        font-size: 40px;
+        letter-spacing: 0.2px;
+        text-transform: capitalize;
+        text-decoration:line-through;
+ 
+      }
+p:hover{
+        color:aquamarine;
+        background-color:blueviolet;
+      }
+.select{
+    color: blue;
+}  
+#order{
+    color: aqua;
+    background-color: burlywood;
+}
+p{
+    background-color: darksalmon;
+}
+.border{
+    border: 3px;
+}
