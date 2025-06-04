@@ -8,24 +8,35 @@
       }
 p:hover{
         color:aquamarine;
-        background-color:blueviolet;
+        /* background-color:blueviolet; */
       }
 .select{
     color: blue;
 }  
 #order{
     color: aqua;
-    background-color: burlywood;
+     background-color: burlywood; 
 }
-p{
-    background-color: darksalmon;
-}
+/* p{  */
+    /* background-color: darksalmon;  */
+/* } */
 .border{
     border: 2px solid brown;
     padding: 20px;
 }
 .margin{
     border: 3px solid aquamarine;
-    margin-top: 50px;
+    margin-top: 70px;
     padding: 10px  50px;
+}
+.relative{
+    position:absolute;
+    top:40px;
+    left: 80px;
+}
+.position{
+    border: 5px solid red;
+}
+.page{
+    
 }
