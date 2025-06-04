@@ -40,7 +40,7 @@ p:hover{
 .page{
     height: 100vh
 }
-fixed{
+.fixed{
     position: fixed;
     left :150px
 }
