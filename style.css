@@ -43,4 +43,32 @@ p:hover{
 .fixed{
     position: fixed;
     left :150px
+}.sticky{
+    position: sticky;
+    top: 10px;
+    left: 120px;
+}
+
+.inline{
+    display: inline-block ;
+}
+.flex-container{
+     display:flex; 
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    background-color: aqua;
+    border: 2px solid brown;
+    
+   
+}
+
+
+.flex-container div{
+    background-color: gold;
+    border: 2px solid brown;
+    height: 100px;
+    width: 100px;
+}
+.three{
+    flex-grow: 1;
 }
