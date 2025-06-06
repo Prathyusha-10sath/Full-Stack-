@@ -14,25 +14,11 @@
 </head>
 <body>
    <h1 class = "select"> TOP 3 MOVIES  </h1>
-   <style>
-      
-      .parent p{
-        font-family: cursive;
-      }
-      p:hover{
-        color:aquamarine;
-        background-color:blueviolet;
-      }
-      .container {
-      background-color: rgba(255, 255, 255, 0.95); /* Transparent white background */
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-      text-align: center;
-    }
+   
+     
 
     
-   </style>
+   
     <div class="container">
       <h1>kpr college of arts scienc and research</h1>
       <h2>details table</h2>
@@ -48,5 +34,16 @@
     <div class="parent"><p>hi hello how are u </p></div>
     <h3>html,css,java script</h3>
     <a href="table.html">table</a>
+
+
+<input type="text" id="name">
+<button onclick= showName()>click</button>
+<h1 id="result"></h1>
+<script>
+  function showName(){
+    const name=document.getElementById('name').value 
+    document.getElementById('result').innerText=`hello ${name}`
+  }
+</script>
 </body>
 </html>     
